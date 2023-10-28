@@ -25,9 +25,19 @@ To use this software just open Dolphin (the kde file browser) and you will get A
 enhanced metadata and file item actions to easily mange your applications.  
 
 ## Build
-**Dependencies**
+**Dependencies (Fedora)**
 - cmake (>=3.12)
 - gcc (>=4.8)
+- qt5-qtbase-devel
+- kf5-kxmlgui
+- kf5-ki18n
+- kf5-kio
+- kf5-ktextwidgets
+
+----------------
+
+Non Fedora
+
 - Qt5::Core
 - Qt5::Widgets
 - Qt5::Network
@@ -40,13 +50,15 @@ enhanced metadata and file item actions to easily mange your applications.
 - KF5::FileMetaData
 
 ```bash
-mkdir build; cd build
+mkdir build
+cd build
 cmake -DCMAKE_INSTALL_PREFIX=`kf5-config --prefix` ..
 make -j`nproc`
 sudo make install
 
 # Install AppImage Services
-wget https://www.opencode.net/azubieta/AppImageService/-/jobs/artifacts/master/raw/appimage-services-x86_64.AppImage?job=build:AppImage -O appimage-services.AppImage
+cd ..
+cd required-appimage
 chmod +x appimage-services.AppImage
 ./appimage-services.AppImage self-install
 ```
