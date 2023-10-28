@@ -6,6 +6,7 @@
 #include <QDebug>
 #include <KFileMetaData/Properties>
 #include <KF5/kconfig_version.h>
+#include <KF5/KConfig/kconfig_version.h>
 
 // local
 #include "AppImageExtractor.h"
