@@ -25,14 +25,19 @@ To use this software just open Dolphin (the kde file browser) and you will get A
 enhanced metadata and file item actions to easily mange your applications.  
 
 ## Build
-**Dependencies (Fedora)**
+**Dependencies (Fedora 38)**
 - cmake (>=3.12)
+- extra-cmake-modules
 - gcc (>=4.8)
 - qt5-qtbase-devel
 - kf5-kxmlgui
 - kf5-ki18n
 - kf5-kio
+- kf5-kio-devel
 - kf5-ktextwidgets
+- kf5-ktextwidgets-devel
+- kf5-knotifications-devel
+- kf5-kfilemetadata-devel
 
 ----------------
 
