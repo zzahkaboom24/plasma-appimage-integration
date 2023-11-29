@@ -55,6 +55,8 @@ Non Fedora
 - KF5::FileMetaData
 
 ```bash
+git clone https://github.com/zzahkaboom24/plasma-appimage-integration
+cd plasma-appimage-integration
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=`kf5-config --prefix` ..
