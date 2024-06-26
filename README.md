@@ -39,6 +39,11 @@ enhanced metadata and file item actions to easily mange your applications.
 - kf5-knotifications-devel
 - kf5-kfilemetadata-devel
 
+Or simply run the following command:
+```
+sudo dnf install cmake extra-cmake-modules gcc qt5-qtbase-devel kf5-kxmlgui kf5-ki18n kf5-kio kf5-kio-devel kf5-ktextwidgets kf5-ktextwidgets-devel kf5-knotifications-devel kf5-kfilemetadata-devel
+```
+
 ----------------
 
 Non Fedora
